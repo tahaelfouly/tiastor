@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;&display=swap');
+* {
+     font-family: "Roboto", sans-serif;
+     margin: 0;
+     padding: 0;
+     box-sizing : border-box;
+     scroll-behavior : smooth;
+    }
+
+.header{
+    width: 100%;
+    height: 60vh;
+    background: linear-gradient(rgba(0,0,0,0.877),rgba(0,0,0,0.5)),url(imgs/istockphoto-1346495442-612x612.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    
+}
+
+nav{
+    display: flex;
+    padding: 2% 5%;
+}
+
+nav img{
+    height: 88px;
+    width: 180px;
+}
+
+nav ul{
+    text-align: right;
+    margin-left: 320px;
+    flex: 20;   
+}
+
+nav ul li {
+   display: inline-block;
+   padding: 16px 11px;
+}
+
+nav ul li a{
+    color: white;
+    font-weight: 100;
+    font-size:20px ;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(244, 36, 174);
+}
+
+nav ul li a ::after{
+   content: "";
+   width: 0;
+   height: 2px;
+   display: block;
+   background-color:  rgb(244, 36, 174);
+   transition: .5s;
+}
+
+nav ul li a:hover::after{
+    width: 100%;    
+}
+
+.cart{
+    color: rgb(244, 36, 174);
+}
+
+.cart::after{
+    content: "";
+   width: 100%;
+   height: 2px;
+   background-color:  rgb(244, 36, 174);
+}
+
+nav ul i{
+    color: white;
+    margin-left: 100%;
+    font-size: 30px;
+}
+
+nav ul i:hover{color:  rgb(244, 36, 174);}
+
+.head{
+    padding-top: 5%;
+    text-align: center;
+}
+
+.head h1{
+    font-size: 80px;
+    font-weight: 400;
+    color: white;
+    font-family: 'Philosopher', sans-serif;
+}
+
+
+.c-p{
+    margin: 80px auto;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.c-i{
+    display: flex;
+    flex-wrap: warp;
+}
+.c-i p{display: none;}
+th{
+    text-align: left;
+    padding: 5px ;
+    color: #fff;
+    background: #f296b2;
+    font-weight: normal;
+}
+td{
+    padding: 10px 5px;
+}
+td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+td a{
+    color: #a90139;
+    font-size: 12px;
+    text-decoration: solid #c00974;
+}
+td img{
+    width: 90px;
+    height: 90px;
+    margin-right: 10px;
+}
+.t-p{
+    display:flex;
+    justify-content: flex-end;
+}
+.t-p table{
+    border-top: 3px solid #fd95aa;
+    width: 100%;
+    max-width: 400px;
+}
+td:last-child{
+    text-align: right;
+}
+th:last-child{
+    text-align: right;
+}
+.t-p .btn{padding: 20px;
+border-color: #e41e45;
+background-color: #e41e45;
+color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color: #1a1a1a;
+    width:100%;
+    height:85vh;
+    display: flex;
+    padding-top:6%;
+    padding-left: 80px;
+    padding-right:40px ;
+    color: white;
+}
+
+.footer-left-side img{
+    height: 88px;
+    width: 180px;
+}
+
+.footer h1{
+    font-size: 32px;
+    letter-spacing: 2px;
+    color: #e41e45;
+    font-family: 'Philosopher', sans-serif;
+    padding-bottom: 30px;
+    padding-top: 40px;
+}
+
+.footer p{
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 20px;
+    line-height: 1.6;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.footer h3{
+    padding: 4px 0;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 300;
+}
+
+.btn{
+    background-color: white;
+    width: 70%;
+    height: 10vh;
+    font-size: 18px;
+    padding-right: 40%;
+    font-family: 'Philosopher', sans-serif;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.btn1{
+    background-color: #e41e45;
+    width: 29%;
+    height: 10vh;
+    font-size: 16px;
+    font-family: 'Philosopher', sans-serif;
+    border-radius: 3px;
+    color: white;
+}
+
+.btn1:hover{
+    background-color: rgba(209,11,11,0.5);
+    transition: .5s;
+}
+
+.footer-mid-side{
+    margin: 0 60px;
+}
+
+.footer-mid-side li{
+    padding-bottom: 10px;
+    list-style-type: none;
+}
+
+.footer-mid-side li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-mid-side li a :hover{
+    color: #e41e45;
+}
+
+.footer-mid-side .icons i{
+    margin-left: 0;
+    border: 2px solid white;
+    margin-right: 20px;
+    border-radius: 80px;
+    color: #e41e45;
+    font-size: 22px;
+    padding: 10px 10px;
+}
+
+.footer-mid-side .icons i:hover{
+    background-color: #e41e45;
+    color: white;
+}
